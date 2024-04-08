@@ -180,19 +180,20 @@ export default function Body() {
             </div>
           </div>
         </div>
+        
       </div>
       <div id="My Skills">
         <h3 className="underline underline-offset-8 text-2xl text-red-500 mt-5">
           My Skills
         </h3>
         <div id="Skill-Container" className="flex gap-4 justify-around mt-9">
-        <div className="bg-stone-600 outline bg- outline-offset-2 outline-red-700 rounded-md text-center w-32">HTML</div>
-        <div className="bg-stone-600 outline bg- outline-offset-2 outline-red-700 rounded-md text-center w-32">CSS</div>
-        <div className="bg-stone-600 outline bg- outline-offset-2 outline-red-700 rounded-md text-center w-32">Tailwind CSS</div>
-        <div className="bg-stone-600 outline bg- outline-offset-2 outline-red-700 rounded-md text-center w-32">JavaScript</div>
-        <div className="bg-stone-600 outline bg- outline-offset-2 outline-red-700 rounded-md text-center w-32">React JS</div>
-        <div className="bg-stone-600 outline bg- outline-offset-2 outline-red-700 rounded-md text-center w-32">Node JS</div>
-        <div className="bg-stone-600 outline bg- outline-offset-2 outline-red-700 rounded-md text-center w-32">MySQL</div>
+        <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">HTML</div>
+        <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">CSS</div>
+        <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">Tailwind CSS</div>
+        <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">JavaScript</div>
+        <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">React JS</div>
+        <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">Node JS</div>
+        <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">MySQL</div>
         </div>
         <div id="Contact">
         <h3 className="underline underline-offset-8 text-2xl text-red-500 mt-7">
