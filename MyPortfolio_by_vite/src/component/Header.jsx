@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="bg-slate-400 flex justify-between px-4 py-3 text-2xl ">
         <div className="flex"><img
-          src="./src/assets/proffesional.png"
+          src="public/assets/proffesional.png"
           alt="photo"
           height={300}
           width={100}
