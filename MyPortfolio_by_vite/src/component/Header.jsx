@@ -8,7 +8,7 @@ export default function Header() {
           src="/mine.png"
           alt="photo"
           height={300}
-          width={100}
+          width={110}
           className="rounded-full"
         />
         <h3 className="font-playfair py-10 ml-4 text-3xl underline underline-offset-8 text-slate-900">DHAIRYA SHAH</h3>

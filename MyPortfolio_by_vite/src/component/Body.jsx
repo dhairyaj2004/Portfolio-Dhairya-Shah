@@ -26,45 +26,7 @@ export default function Body() {
           My Projects
         </h3>
         <div id="Projects-Container" className="grid gap-4 grid-cols-4 justify-around">
-          <div className="max-w-xs transition duration-300 ease-in-out hover:scale-110 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-9">
-            <img
-              className="rounded-t-lg"
-              src="https://miro.medium.com/v2/resize:fit:1000/1*ANysIuJ_bC_3ETbsZnJOuw.jpeg"
-              alt=""
-            />
-            <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Blogify
-              </h5>
-              <p className="mb-3 text-gray-700 dark:text-gray-400">
-                Built a web app where author can publish a blog even author can
-                delete it and republish it also. I made it with the help of
-                React framework only.
-              </p>
-              <a
-                href="https://github.com/dhairyaj2004/the-blog-by-react"
-                target="_blank"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Github Repository
-                <svg
-                  className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+          
           <div className="max-w-sm transition duration-300 ease-in-out hover:scale-110 ml-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-9 ">
             <img
               className="rounded-t-lg"
@@ -157,6 +119,45 @@ export default function Body() {
               </p>
               <a
                 href="https://github.com/dhairyaj2004/Blackjack-game-by-js"
+                target="_blank"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Github Repository
+                <svg
+                  className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div className="max-w-sm transition duration-300 ease-in-out hover:scale-110 ml-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-9">
+            <img
+              className="rounded-t-lg"
+              src="https://floridaseo.net/wp-content/uploads/2017/08/blog-post.jpg"
+              alt=""
+            />
+            <div className="p-5">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Blogify
+              </h5>
+              <p className="mb-3 text-gray-700 dark:text-gray-400">
+                Built a web app where author can publish a blog even author can
+                delete it and republish it also. I made it with the help of
+                React framework only.
+              </p>
+              <a
+                href="https://github.com/dhairyaj2004/the-blog-by-react"
                 target="_blank"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
