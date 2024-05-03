@@ -25,7 +25,7 @@ export default function Body() {
         <h3 className="underline underline-offset-8 text-2xl text-red-500 mt-5">
           My Projects
         </h3>
-        <div id="Projects-Container" className="grid gap-4 grid-cols-4 justify-around">
+        <div id="Projects-Container" className="grid gap-4 xl:grid-cols-4 lg:grid-cols-3 lg:justify-around md:grid-cols-2 md:justify-center sm:grid-cols-1 sm:justify-center">
           
           <div className="max-w-sm transition duration-300 ease-in-out hover:scale-110 ml-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-9 ">
             <img
