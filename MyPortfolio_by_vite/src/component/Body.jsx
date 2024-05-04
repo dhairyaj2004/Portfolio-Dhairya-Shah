@@ -187,7 +187,7 @@ export default function Body() {
         <h3 className="underline underline-offset-8 text-2xl text-red-500 mt-5">
           My Skills
         </h3>
-        <div id="Skill-Container" className="flex gap-4 justify-around mt-9">
+        <div id="Skill-Container" className="gap-4 grid lg:grid-cols-7 justify-around mt-9 md:grid-cols-4 sm:grid-cols-2">
         <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">HTML</div>
         <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">CSS</div>
         <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">Tailwind CSS</div>
