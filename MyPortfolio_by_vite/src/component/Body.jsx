@@ -22,7 +22,7 @@ export default function Body() {
         </p>
       </div>
       <div id="My Projects">
-        <h3 className="underline underline-offset-8 text-2xl text-red-500 mt-5">
+        <h3 className="underline underline-offset-8 text-2xl text-red-500 lg:mt-5 md:mt-3 sm:mt-1">
           My Projects
         </h3>
         <div id="Projects-Container" className="grid gap-4 xl:grid-cols-4 lg:grid-cols-3 lg:justify-around md:grid-cols-2 md:justify-center sm:grid-cols-1 sm:justify-center">
