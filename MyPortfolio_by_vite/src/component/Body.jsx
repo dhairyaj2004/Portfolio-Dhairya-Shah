@@ -22,7 +22,7 @@ export default function Body() {
         </p>
       </div>
       <div id="My Projects">
-        <h3 className="underline underline-offset-8 text-2xl text-red-500 lg:mt-5 md:mt-3 sm:mt-1">
+        <h3 className="underline underline-offset-8 text-2xl text-red-500">
           My Projects
         </h3>
         <div id="Projects-Container" className="grid gap-4 grid-row justify-around xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:justify-center ">
@@ -184,7 +184,7 @@ export default function Body() {
         
       </div>
       <div id="My Skills">
-        <h3 className="underline underline-offset-8 text-2xl text-red-500 mt-5">
+        <h3 className="underline underline-offset-8 text-2xl text-red-500">
           My Skills
         </h3>
         <div id="Skill-Container" className="gap-4 grid lg:grid-cols-7 justify-around mt-9 md:grid-cols-4 sm:grid-cols-2">
@@ -197,7 +197,7 @@ export default function Body() {
         <div className="bg-stone-600 outline bg-outline-offset-2 outline-red-700 rounded-md text-center w-32">MySQL</div>
         </div>
         <div id="Contact">
-        <h3 className="underline underline-offset-8 text-2xl text-red-500 mt-7">
+        <h3 className="underline underline-offset-8 text-2xl text-red-500 mt-5">
           Contact Me
         </h3>
         <div className="mt-9 flex">
