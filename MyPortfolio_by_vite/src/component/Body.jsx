@@ -30,7 +30,7 @@ export default function Body() {
           <div className="max-w-sm transition duration-300 ease-in-out hover:scale-110 ml-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-9 ">
             <img
               className="rounded-t-lg"
-              src="https://cannibals.digital/wp-content/uploads/2022/07/hyperlink-license-links.png"
+              src="https://studentpilotguide.co.uk/wp-content/uploads/2019/11/Useful-Link.jpg"
               alt=""
             />
             <div className="p-5">
