@@ -11,7 +11,6 @@ export default function Header() {
           width={110}
           className="rounded-full  "
         />
-        
         <h3 className="font-playfair py-10 ml-4 lg:text-3xl text-2xl font-semibold underline underline-offset-8 text-slate-900">DHAIRYA SHAH</h3>
         
       </div >
