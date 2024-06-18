@@ -4,27 +4,21 @@ export default function Header() {
  
   return (
     <div className="bg-slate-400 flex justify-between px-4 py-3 lg:text-2xl md:text-xl">
+      
         <div className="flex items-center"><img
           src="/mine.png"
           alt="photo"
           height={300}
           width={110}
-          className="rounded-full  "
+          className="rounded-full"
         />
-        <h3 className="font-playfair py-10 ml-4 lg:text-3xl text-2xl font-semibold underline underline-offset-8 text-slate-900">DHAIRYA SHAH</h3>
+        <h3 className="font-serif py-10 ml-4 lg:text-3xl md:text-2xl text-xl font-semibold   text-slate-900">DHAIRYA SHAH</h3>
         
-      </div >
-      {/* <div className="block lg:hidden md:hidden" id="toggle">
-      <button data-collapse-toggle="navbar-default" type="button" className="mt-9 flex items-center px-3 py-2  text-slate-900 border-slate-900">
-        
-        <span className="sr-only">Open main menu</span>
-        <svg className="w-7 h-7" aria-hidden="true" xmlns="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" fill="none" viewBox="0 0 17 14">
-            <path stroke="Black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
-        </svg>
-    </button></div> */}
+      </div>
+      
       
       <div className="py-10 hidden w-full md:block md:w-auto sm:w-auto" id="dropdown">
-      <ul className="font-playfair flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-slate-400 md:dark:bg-slate-400 ">
+      <ul className="font-serif flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-slate-400 md:dark:bg-slate-400 ">
         <li>
           <a href="#" className="block py-2 px-3 text-slate-900 rounded hover:bg-gray-100 hover:underline underline-offset-8  md:border-0  md:p-0  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Home</a>
         </li>

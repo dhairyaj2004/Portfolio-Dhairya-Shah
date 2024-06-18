@@ -2,10 +2,14 @@
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {
-      fontFamily:{
-        playfair:"'playfair display',serif"
-      }
+    screens: {
+      'sm': '825px',
+      'md': '768px',
+      'lg': '1024px',
+    },
+    fontFamily: {
+      
+      serif: ['Merriweather', 'serif'],
     },
   },
   plugins: [],
