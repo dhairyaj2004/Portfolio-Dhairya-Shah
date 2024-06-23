@@ -58,7 +58,7 @@ export default function Body() {
         </h3>
         <div
           id="Projects-Container"
-          className="grid gap-4 grid-row justify-around xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:justify-center "
+          className="grid justify-center gap-4 grid-row md:justify-around lg:justify-around xl:justify-around xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 "
         >
           <div className="max-w-sm transition duration-300 ease-in-out hover:scale-110 ml-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-9 ">
             <img
@@ -266,28 +266,7 @@ export default function Body() {
           id="Skill-Container"
           className="gap-4 grid lg:grid-cols-5 justify-around mt-9 md:grid-cols-4 sm:grid-cols-3"
         >
-          {/* <a class="flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-lg transition dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70" href="#">
-  <img class="w-full h-auto rounded-t-xl bg-white" src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F998EFA4B5ABB7E9F0B" alt="Image Description"/>
-  <div class="p-4 md:p-5">
-    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
-      Card title
-    </h3>
-    <p class="mt-1 text-gray-500 dark:text-neutral-400">
-      Some quick example text to build on the card title and make up the bulk of the card's content.
-    </p>
-  </div>
-</a>
-<a class="flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-lg transition dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70" href="#">
-  <img class="w-full h-auto rounded-t-xl bg-white" src="https://i.pinimg.com/736x/a9/dc/c7/a9dcc740cad3149598307b5de8bc10c3.jpg" alt="Image Description"/>
-  <div class="p-4 md:p-5">
-    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
-      Card title
-    </h3>
-    <p class="mt-1 text-gray-500 dark:text-neutral-400">
-      Some quick example text to build on the card title and make up the bulk of the card's content.
-    </p>
-  </div>
-</a> */}
+
 
           <div class="max-w-sm p-6 bg-gray-700 rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
