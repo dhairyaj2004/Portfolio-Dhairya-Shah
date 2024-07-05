@@ -7,7 +7,7 @@ export default function Body() {
         <h3 className="underline underline-offset-8 text-2xl text-red-500">
           About Me
         </h3>
-        <p className="indent-10 mt-5">
+        <p className="indent-10 mt-5 text-left">
           I am a web developer and a computer engineering student with a strong
           foundation in HTML, CSS, JavaScript, and frameworks like React. I am
           passionate about building responsive, user-friendly web applications.
