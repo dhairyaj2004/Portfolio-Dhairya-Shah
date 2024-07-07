@@ -390,6 +390,18 @@ export default function Body() {
               <h2 class="text-xl font-semibold">MySQL</h2>
             </div>
           </div>
+          <div class="max-w-sm p-6 bg-gray-700 rounded-lg shadow-lg flex items-center space-x-4">
+            <div class="w-16 h-16 flex items-center justify-center">
+              <img
+                src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png"
+                alt="Logo"
+                class="w-12 h-12"
+              />
+            </div>
+            <div>
+              <h2 class="text-xl font-semibold">Figma</h2>
+            </div>
+          </div> 
         </div>
         <div id="Contact">
           <h3 className="underline underline-offset-8 text-2xl text-red-500 mt-5">
