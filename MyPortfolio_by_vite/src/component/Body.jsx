@@ -404,10 +404,10 @@ export default function Body() {
           </div> 
         </div>
         <div id="Contact">
-          <h3 className="underline underline-offset-8 text-2xl text-red-500 mt-5">
+          <h3 className="underline underline-offset-8 text-2xl  text-red-500 mt-5">
             Contact Me
           </h3>
-          <div className="mt-9 flex">
+          <div className="mt-9 flex justify-center">
             <section class="flex justify-center items-center">
               <a href="https://github.com/dhairyaj2004/" target="_blank">
                 <button class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-600 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#6c6c6c] hover:to-[#000000]">
@@ -456,6 +456,10 @@ export default function Body() {
               </a>
             </section>
             <section class="flex justify-center items-center ml-5">
+            <a
+                href="https://x.com/dhairyashah_20"
+                target="_blank"
+              >
               <button class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-700 to-black text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#6c6c6c] hover:to-[#000000]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -471,7 +475,7 @@ export default function Body() {
                 <span class="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-300 group-hover:text-sm group-hover:-translate-y-10 duration-700">
                   x
                 </span>
-              </button>
+              </button></a>
             </section>
 
             <section class="flex justify-center items-center ml-5">
