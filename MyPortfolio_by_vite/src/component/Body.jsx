@@ -407,7 +407,7 @@ export default function Body() {
           <h3 className="underline underline-offset-8 text-2xl  text-red-500 mt-5">
             Contact Me
           </h3>
-          <div className="mt-9 flex justify-center">
+          <div className="mt-9 flex justify-center md:justify-start lg:justify-start">
             <section class="flex justify-center items-center">
               <a href="https://github.com/dhairyaj2004/" target="_blank">
                 <button class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-600 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#6c6c6c] hover:to-[#000000]">
