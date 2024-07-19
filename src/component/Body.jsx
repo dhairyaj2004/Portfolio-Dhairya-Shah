@@ -305,7 +305,7 @@ export default function Body() {
         >
 
 
-          <div class="max-w-sm p-6 bg-gray-700 rounded-lg shadow-lg flex items-center space-x-4">
+          <div class="max-w-sm p-6 bg-orange-700 bg-opacity-60 hover:bg-orange-700  rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
               <img
                 src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png"
@@ -317,7 +317,7 @@ export default function Body() {
               <h2 class="text-xl font-semibold">HTML</h2>
             </div>
           </div>
-          <div class="max-w-sm p-6 bg-gray-700 rounded-lg shadow-lg flex items-center space-x-4">
+          <div class="max-w-sm p-6  bg-blue-800 bg-opacity-60 hover:bg-blue-800  rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
               <img
                 src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-256.png"
@@ -326,11 +326,11 @@ export default function Body() {
               />
             </div>
             <div>
-              <h2 class="text-xl font-semibold">CSS</h2>
+              <h2 class="text-xlfont-semibold">CSS</h2>
             </div>
           </div>
 
-          <div class="max-w-sm p-6 bg-gray-700 rounded-lg shadow-lg flex items-center space-x-4">
+          <div class="max-w-sm p-6 bg-cyan-600 bg-opacity-60 hover:bg-cyan-600 rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png"
@@ -342,7 +342,7 @@ export default function Body() {
               <h2 class="text-xl font-semibold">Tailwind CSS</h2>
             </div>
           </div>
-          <div class="max-w-sm p-6 bg-gray-700 rounded-lg shadow-lg flex items-center space-x-4">
+          <div class="max-w-sm p-6 bg-yellow-300 bg-opacity-60 hover:bg-yellow-500 rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
@@ -354,7 +354,7 @@ export default function Body() {
               <h2 class="text-xl font-semibold">Javascript</h2>
             </div>
           </div>
-          <div class="max-w-sm p-6 bg-gray-700 rounded-lg shadow-lg flex items-center space-x-4">
+          <div class="max-w-sm p-6 bg-sky-800 bg-opacity-60 hover:bg-sky-800 rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
               <img
                 src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
@@ -366,7 +366,7 @@ export default function Body() {
               <h2 class="text-xl font-semibold">React JS</h2>
             </div>
           </div>
-          <div class="max-w-sm p-6 bg-gray-700 rounded-lg shadow-lg flex items-center space-x-4">
+          <div class="max-w-sm p-6 bg-green-800 bg-opacity-60 hover:bg-green-800 rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
               <img
                 src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-256.png"
@@ -378,7 +378,7 @@ export default function Body() {
               <h2 class="text-xl font-semibold">Node JS</h2>
             </div>
           </div>
-          <div class="max-w-sm p-6 bg-gray-700 rounded-lg shadow-lg flex items-center space-x-4">
+          <div class="max-w-sm p-6 bg-cyan-900 bg-opacity-60 hover:bg-cyan-900 rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
               <img
                 src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-256.png"
@@ -390,7 +390,7 @@ export default function Body() {
               <h2 class="text-xl font-semibold">MySQL</h2>
             </div>
           </div>
-          <div class="max-w-sm p-6 bg-gray-700 rounded-lg shadow-lg flex items-center space-x-4">
+          <div class="max-w-sm p-6 bg-purple-900 bg-opacity-60 hover:bg-purple-900 rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
               <img
                 src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png"
