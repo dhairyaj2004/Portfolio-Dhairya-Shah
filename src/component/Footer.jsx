@@ -1,6 +1,18 @@
 import React from "react";
-
+import emailjs from "emailjs-com";
 export default function Footer() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    emailjs.sendForm('service_c8togfs', 'template_4u8tlpr', e.target, 'h1sBwZu91mHbGz_3u')
+      .then((result) => {
+        console.log(result.text);
+        alert("Message sent successfully!");
+      }, (error) => {
+        console.log(error.text);
+        alert("Failed to send message, try again later.");
+      });
+  };
   
   return (
     <div>
@@ -14,7 +26,7 @@ export default function Footer() {
       <div className="h-screen flex items-center justify-center bg-slate-900 text-slate-200 px-4 py-5">
       <div className="w-full max-w-lg">
       <h2 className="underline underline-offset-8 text-2xl text-center text-red-500">GET IN TOUCH</h2>
-        <form className="bg-slate-800 p-8 rounded-lg shadow-md mt-5">
+        <form onSubmit={sendEmail} id="contact-form" className="bg-slate-800 p-8 rounded-lg shadow-md mt-5">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
               <label className="block uppercase tracking-wide text-slate-200 text-xs font-bold mb-2" htmlFor="name">
@@ -23,6 +35,7 @@ export default function Footer() {
               <input
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="name"
+                name="name"
                 type="text"
                 placeholder="Your Name"
                 required
@@ -38,6 +51,7 @@ export default function Footer() {
               <input
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="email"
+                name="email"
                 type="email"
                 placeholder="Your Email"
                 required
@@ -53,6 +67,7 @@ export default function Footer() {
               <textarea
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="message"
+                name="message"
                 placeholder="Your Message"
                 rows="4"
                 required
