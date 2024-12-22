@@ -8,13 +8,7 @@ export default function Body() {
           About Me
         </h3>
         <p className="indent-10 mt-5 text-left">
-          I am a web developer and a computer engineering student with a strong
-          foundation in HTML, CSS, JavaScript, and frameworks like React. I am
-          passionate about building responsive, user-friendly web applications.
-          Alongside my web development skills, I am eager to explore other tech
-          fields and continuously expand my knowledge. With a dedication to
-          innovation and learning, I aim to contribute to diverse and
-          forward-thinking projects.
+        I am a web developer and computer engineering student with expertise in HTML, CSS, JavaScript, and React.js, Node.js. Passionate about creating responsive, user-friendly web applications, I have also learned Node.js and am currently exploring Next.js and MongoDB to enhance my full-stack development skills. I am highly adaptive to any technology, embracing opportunities to learn and grow. With a commitment to innovation and continuous learning, I aim to contribute to impactful, forward-thinking projects.
         </p>
         <div class="py-5 flex justify-center">
           <a href="./DhairyaResume.pdf" Download="Dhairya Resume">
@@ -421,16 +415,16 @@ export default function Body() {
               <h2 class="text-xl font-semibold">MySQL</h2>
             </div>
           </div>
-          <div class="max-w-sm p-6 bg-purple-900 bg-opacity-60 hover:bg-purple-900 rounded-lg shadow-lg flex items-center space-x-4">
+          <div class="max-w-sm p-6 bg-gray-400 bg-opacity-60 hover:bg-gray-600 rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
               <img
-                src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png"
+                src="https://cdn1.iconfinder.com/data/icons/akar-vol-1/24/nextjs-fill-512.png"
                 alt="Logo"
                 class="w-12 h-12"
               />
             </div>
             <div>
-              <h2 class="text-xl font-semibold">Figma</h2>
+              <h2 class="text-xl font-semibold">Next JS</h2>
             </div>
           </div>
         </div>
