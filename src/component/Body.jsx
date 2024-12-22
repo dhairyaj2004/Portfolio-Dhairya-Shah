@@ -71,13 +71,81 @@ export default function Body() {
                 Dr. Chemistry
               </h5>
               <p className="mb-3 text-gray-700 dark:text-gray-400">
-                Built a chemistry based fully responsive website. Where user can
-                get brief information by clicking on images and watching videos
-                on website itself and they can by courses, do direct WhatsApp
-                chat with an instructor.
+                Developed a Next.js platform featuring interactive learning,
+                user authentication, responsive UI, and secure CRUD operations
+                with MongoDB Atlas, enabling personalized dashboards and other
+                attractive compnents.
+              </p>
+              <div className="flex space-x-4">
+                <a
+                  href="https://github.com/dhairyaj2004/Dr.Chemistry"
+                  target="_blank"
+                  className="flex items-center justify-center w-1/2 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Github Repository
+                  <svg
+                    className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://dr-chemistry.vercel.app/"
+                  target="_blank"
+                  className="flex items-center justify-center w-1/2 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Checkout live website
+                  <svg
+                    className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="max-w-sm transition duration-300 ease-in-out hover:scale-110 ml-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-9 ">
+            <img
+              className="rounded-t-lg"
+              src="https://www.apollo.io/opengraph-image.jpg?8828ee704915d571"
+              alt=""
+            />
+            <div className="p-5">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Apollo Automation Extension
+              </h5>
+              <p className="mb-3 text-gray-700 dark:text-gray-400">
+                Developed a browser extension to automate saving employee data
+                for a specific company into a list and seamlessly integrate it
+                into{" "}
+                <a href="https://apollo.io" className="text-blue-400">
+                  Apollo's
+                </a>{" "}
+                website, streamlining data management and enhancing efficiency
+                for targeted employee information processing.
               </p>
               <a
-                href="https://github.com/dhairyaj2004/Dr.Chemistry"
+                href="https://github.com/dhairyaj2004/apollo-automation-Digikentro"
                 target="_blank"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
@@ -111,9 +179,10 @@ export default function Body() {
                 Keep Links
               </h5>
               <p className="mb-3 text-gray-700 dark:text-gray-400">
-                Built a browser extension with help of Javascript that can track
-                of link. User just have to press the single button and next time
-                user can easily enter a particular web page with a single click.
+                Developed a JavaScript-powered browser extension to track links.
+                Users can save a webpage with a single button press and revisit
+                it effortlessly with one click, enhancing navigation efficiency
+                and user experience.
               </p>
               <a
                 href="https://github.com/dhairyaj2004/Link-Tracker-"
@@ -217,43 +286,7 @@ export default function Body() {
               </a>
             </div>
           </div>
-          <div className="max-w-sm transition duration-300 ease-in-out hover:scale-110 ml-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-9 ">
-            <img
-              className="rounded-t-lg"
-              src="https://www.apollo.io/opengraph-image.jpg?8828ee704915d571"
-              alt=""
-            />
-            <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Apollo Automation Extension
-              </h5>
-              <p className="mb-3 text-gray-700 dark:text-gray-400">
-                Built a browser extension which helps to automate the save data of particular company's employees into an list which should be addedd into <a href="https://apollo.io" className="text-blue-400">Apollo's</a> website.
-              </p>
-              <a
-                href="https://github.com/dhairyaj2004/apollo-automation-Digikentro"
-                target="_blank"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Github Repository
-                <svg
-                  className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+
           <div className="max-w-sm transition duration-300 ease-in-out hover:scale-110 ml-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-9">
             <img
               className="rounded-t-lg"
@@ -303,8 +336,6 @@ export default function Body() {
           id="Skill-Container"
           className="gap-4 grid lg:grid-cols-5 justify-around mt-9 md:grid-cols-4 sm:grid-cols-3"
         >
-
-
           <div class="max-w-sm p-6 bg-orange-700 bg-opacity-60 hover:bg-orange-700  rounded-lg shadow-lg flex items-center space-x-4">
             <div class="w-16 h-16 flex items-center justify-center">
               <img
@@ -401,7 +432,7 @@ export default function Body() {
             <div>
               <h2 class="text-xl font-semibold">Figma</h2>
             </div>
-          </div> 
+          </div>
         </div>
         <div id="Contact">
           <h3 className="underline underline-offset-8 text-2xl  text-red-500 mt-5">
@@ -456,26 +487,24 @@ export default function Body() {
               </a>
             </section>
             <section class="flex justify-center items-center ml-5">
-            <a
-                href="https://x.com/dhairyashah_20"
-                target="_blank"
-              >
-              <button class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-700 to-black text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#6c6c6c] hover:to-[#000000]">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="1em"
-                  height="1em"
-                  viewBox="0 0 24 24"
-                  stroke-width="0"
-                  fill="currentColor"
-                  stroke="currentColor"
-                >
-                  <path d="M8 2H1L9.26086 13.0145L1.44995 21.9999H4.09998L10.4883 14.651L16 22H23L14.3917 10.5223L21.8001 2H19.1501L13.1643 8.88578L8 2ZM17 20L5 4H7L19 20H17Z"></path>
-                </svg>
-                <span class="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-300 group-hover:text-sm group-hover:-translate-y-10 duration-700">
-                  x
-                </span>
-              </button></a>
+              <a href="https://x.com/dhairyashah_20" target="_blank">
+                <button class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-700 to-black text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#6c6c6c] hover:to-[#000000]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                    stroke-width="0"
+                    fill="currentColor"
+                    stroke="currentColor"
+                  >
+                    <path d="M8 2H1L9.26086 13.0145L1.44995 21.9999H4.09998L10.4883 14.651L16 22H23L14.3917 10.5223L21.8001 2H19.1501L13.1643 8.88578L8 2ZM17 20L5 4H7L19 20H17Z"></path>
+                  </svg>
+                  <span class="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-300 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+                    x
+                  </span>
+                </button>
+              </a>
             </section>
 
             <section class="flex justify-center items-center ml-5">
