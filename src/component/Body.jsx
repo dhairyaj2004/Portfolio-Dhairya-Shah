@@ -74,7 +74,7 @@ export default function Body() {
                 <a
                   href="https://github.com/dhairyaj2004/Dr.Chemistry"
                   target="_blank"
-                  className="flex items-center justify-center w-1/2 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="flex items-center justify-center w-1/2 px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none  bg-blue-600 :hover:bg-blue-700 focus:ring-blue-800"
                 >
                   Github Repository
                   <svg
@@ -141,7 +141,7 @@ export default function Body() {
               <a
                 href="https://github.com/dhairyaj2004/apollo-automation-Digikentro"
                 target="_blank"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="flex items-center justify-center w-100 mb-2 mt-10 px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none  bg-blue-600 :hover:bg-blue-700 focus:ring-blue-800"
               >
                 Github Repository
                 <svg
@@ -181,7 +181,7 @@ export default function Body() {
               <a
                 href="https://github.com/dhairyaj2004/Link-Tracker-"
                 target="_blank"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
+                className="flex items-center justify-center w-100 mb-2 mt-16 px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none  bg-blue-600 :hover:bg-blue-700 focus:ring-blue-800"
               >
                 Github Repository
                 <svg
@@ -220,7 +220,7 @@ export default function Body() {
               <a
                 href="https://github.com/dhairyaj2004/movie-app-by-react-js"
                 target="_blank"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="flex items-center justify-center w-100 mb-2 mt-4 px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none  bg-blue-600 :hover:bg-blue-700 focus:ring-blue-800"
               >
                 Github Repository
                 <svg
@@ -259,7 +259,7 @@ export default function Body() {
               <a
                 href="https://github.com/dhairyaj2004/Blackjack-game-by-js"
                 target="_blank"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="flex items-center justify-center w-100 mb-2 mt-14 px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none  bg-blue-600 :hover:bg-blue-700 focus:ring-blue-800"
               >
                 Github Repository
                 <svg
@@ -299,7 +299,7 @@ export default function Body() {
               <a
                 href="https://github.com/dhairyaj2004/the-blog-by-react"
                 target="_blank"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="flex items-center justify-center w-100 mb-2 mt-10 px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none  bg-blue-600 :hover:bg-blue-700 focus:ring-blue-800"
               >
                 Github Repository
                 <svg
